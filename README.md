@@ -1,12 +1,10 @@
 # Module One: Benchmark API
 ## Description
 A simple benchmarking API that returns results when a user provides a sort type (bubble or Quicksort) and a number of items to sort. This section of the module practices using an API through the remote server set up in the first part of the module.
-## Usage
-Enter the sort type and number of rounds into the api route.
-Ex. "/api/sort/bubble?rounds=5" OR "/api/sort/quick?rounds=5"
-## Links
-[Bubble sort API](http://technical-tracks.xyz)
-[Quicksort API](http://technical-tracks.xyz)
+## Usage & Links
+Enter the sort type and change the number of rounds in the api route to test different results.
+[Bubble sort API](http://benchmark.technical-tracks.xyz/api/sort/bubble?rounds=500)
+[Quicksort API](http://benchmark.technical-tracks.xyz/api/sort/quick?rounds=500)
 ## Tools
 * Node.js & Express.js
 * Benchmark
